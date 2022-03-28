@@ -1,0 +1,20 @@
+{
+  "name": "example-app-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BryakunovIvan/example-app-front.git",
+  "author": "Ivan Bryakunov <ivan.bryakunov@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config=webpack.common.js"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
